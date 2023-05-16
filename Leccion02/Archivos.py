@@ -16,6 +16,7 @@ try:
         '\nLas letras son:\n r read - leer\n a append - anexa\n w write - escribe\n x - crea un archivo')
     archivo.write(
         '\nt para texto o text, \nb para archivos binarios, \nw+ escribe y lee, \nr+leer y escribir')
+    
 
 except Exception as e:
     print(e)
